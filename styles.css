@@ -1,0 +1,112 @@
+* {
+    font-family: Arial;
+  }
+  
+  table {
+    spacing: 0.1rem;
+    border-collapse: collapse;
+    font-size: 1.1vw;
+  }
+  
+  tr {
+    border-spacing: 0.4rem;
+    font-size: 1.1vw;
+    height: 4.7vh;
+    max-width: 100%;
+    margin: 0;
+    padding: 0.5em;
+  }
+  
+  tr:nth-child(even) {background-color: #b2e2f2;}
+  tr:nth-child(odd) {background-color: #f5fff3;}
+  tr:nth-child(1) {font-weight:bold;}
+
+  
+  h1 h3 {
+    font-size: 1.23vw;
+    color: gray;
+    margin-top: 0.4vw;
+    margin-bottom: 0vw;
+  }
+  
+  h1 {
+    font-size: 2.0vw;
+    color: black;
+  }
+  
+  .heading {
+    background-color: blue;
+    color: white;
+  }
+  
+  .column-left {
+    float: left;
+    width: 55%;
+  }
+  
+  .column-right {
+    float: right;
+    width: 45%;
+  }
+  
+  
+  .no {
+    /*Based on concepts explained under the CSS Advanced section of w3schools*/
+      background:linear-gradient(to top, #c62d1f 2%, #f24437 100%);
+    border:0.1px solid #d02718;
+      background-color:#c62d1f;
+    text-shadow:0vw 0.1vw 0vw #810e05;
+    box-shadow: 0.3vw 0.4vw 0vw 0vw #8a2a21;
+  }
+  .no:hover {
+      background:linear-gradient(to top, #f24437 2%, #c62d1f 100%);
+      background-color:#f24437;
+  }
+  
+  .yes {
+    /*Based on concepts explained under the CSS Advanced section of w3schools*/
+      background:linear-gradient(to top, #77b55a 2%, #72b352 100%);
+    border:0.1vw solid #4b8f29;
+      background-color:#77b55a;
+    text-shadow:0vw 0.1vw 0vw #314327;
+    box-shadow: 0.3vw 0.4vw 0vw 0vw #3e7327;
+  }
+  
+  .yes:hover {
+      background:linear-gradient(to top, #72b352 2%, #77b55a 100%);
+      background-color:#72b352;
+  }
+  
+  td {
+    font-size: 1.1vw;
+  }
+
+  td + td + td + td + td + td {
+    font-size: 1.1vw;
+    word-break: break-all;
+  }
+
+  button {
+    /*Based on concepts explained under the CSS Advanced section of w3schools*/
+      background:linear-gradient(to top, #599bb3 2%, #408c99 100%);
+      background-color:#599bb3;
+      border-radius:1.8vw;
+      border:0.1vw solid #29668f;
+      display:inline-block;
+      color:#ffffff;
+      font-size:0.7vw;
+      padding:0.3vw 1.5vw;
+      text-shadow:0vw 0.1vw 0vw #3d768a;
+    box-shadow: 0.0vw 0.4vw 0vw 0vw #276873;
+  }
+  button:hover {
+      background:linear-gradient(to top, #408c99 2%, #599bb3 100%);
+      background-color:#408c99;
+  }
+  button:active {
+      position:relative;
+      top:0.1vw;
+  }
+
+
+  
